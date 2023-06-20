@@ -1,6 +1,6 @@
 import '../styles/globals.css'
-
 import { Header } from './components/header'
+import { font } from './font.js'
 
 export default function RootLayout ({ children }) {
   return (
@@ -8,7 +8,8 @@ export default function RootLayout ({ children }) {
       <head>
         <title>Welcome!</title>
       </head>
-      <body>
+
+      <body className={font.className}>
         <Header />
         {children}
       </body>
