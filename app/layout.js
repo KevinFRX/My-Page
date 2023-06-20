@@ -9,7 +9,7 @@ export default function RootLayout({ children }) {
         <title>Welcome!</title>
       </head>
       <body>
-        <Header/>
+        <Header />
         {children}
       </body>
     </html>

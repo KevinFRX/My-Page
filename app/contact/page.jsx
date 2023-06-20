@@ -1,5 +1,5 @@
-export default function AboutMePage () {
-    return (
-        <h1>Contact</h1>
-    )
+export default function AboutMePage() {
+  return (
+    <h1>Contact</h1>
+  )
 }
