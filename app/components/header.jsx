@@ -5,14 +5,14 @@ const links = [{
   label: 'Home',
   route: '/'
 }, {
-  label: 'About Me',
-  route: '/about_me'
+  label: 'About',
+  route: '/about'
 }, {
   label: 'Curriculum vitae',
   route: '/cv'
 }, {
-  label: 'Portfolio',
-  route: '/portfolio'
+  label: 'Projects',
+  route: '/projects'
 }, {
   label: 'Contact',
   route: '/contact'
@@ -25,8 +25,8 @@ export const metadata = {
 export function Header () {
   return (
     <header className={styles.header}>
-      <nav>
-        <ul className={styles.navigation}>
+      <nav className={styles.navigation}>
+        <ul className={styles.list}>
           {links.map(({ label, route }) => (
             <li key={route}>
               <Link href={route}>
