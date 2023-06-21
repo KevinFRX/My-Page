@@ -12,8 +12,8 @@ export default function HomePage () {
         </div>
         <div className={styles.profilePicture}>
           <Image
-            src="/profile-picture.jpg"
-            alt="Profile Picture"
+            src='/profile-picture.jpg'
+            alt='Profile Picture'
             width={300}
             height={300}
           />
@@ -21,10 +21,10 @@ export default function HomePage () {
       </div>
       <div className={styles.homeWallpaper}>
         <Image
-          src="/home-wallpaper.jpg"
-          alt="Home Wallpaper"
-          layout="fill"
-          objectFit="cover"
+          src='/home-wallpaper.jpg'
+          alt='Home Wallpaper'
+          layout='fill'
+          objectFit='cover'
           quality={100}
         />
       </div>
